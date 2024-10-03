@@ -1,6 +1,6 @@
 # Resfusion: Denoising Diffusion Probabilistic Models for Image Restoration Based on Prior Residual Noise
 
-![image](https://github.com/nkicsl/Resfusion/blob/main/assets/Visualization.jpg)
+![image](https://github.com/nkicsl/Resfusion/releases/download/v1.0/Visualization.jpg)
 
 arxiv link: https://arxiv.org/abs/2311.14900
 
@@ -75,15 +75,15 @@ Step 4: Assess quantitative metrics using MATLAB files and .py files in `./eval`
 ## Results Download
 | Dataset          | results                                                                                                                |
 |------------------|------------------------------------------------------------------------------------------------------------------------|
-| ISTD dataset     | [Resfusion_ISTD.zip](https://1drv.ms/u/c/e619d8638269023a/EY2RmFGbjk1ApWQR7m2mPjYB1bmikLfadagBNBlm65aSRg?e=t9m1cV)     |
-| LOL dataset      | [Resfusion_LOL.zip](https://1drv.ms/u/c/e619d8638269023a/EQRpiq5ur5dHkVfPP4vK-KkBHO9rDvl-4ch8PnvdPrE8SA?e=Coi0LY)      |
-| Raindrop dataset | [Resfusion_Raindrop.zip](https://1drv.ms/u/c/e619d8638269023a/EY4X1OIdGMtIqyMmwDRIrrIBrb7uHSFG5Ql6LrzAOlpl2A?e=WcE971) |
+| ISTD dataset     | [Resfusion_ISTD.zip](https://github.com/nkicsl/Resfusion/releases/download/v1.0/Resfusion_ISTD.zip)     |
+| LOL dataset      | [Resfusion_LOL.zip](https://github.com/nkicsl/Resfusion/releases/download/v1.0/Resfusion_LOL.zip)      |
+| Raindrop dataset | [Resfusion_Raindrop.zip](https://github.com/nkicsl/Resfusion/releases/download/v1.0/Resfusion_Raindrop.zip) |
 
 ## Estimation of Parameters and MACs
 Consistent with [RDDM](https://github.com/nachifur/RDDM), we used [THOP](https://github.com/Lyken17/pytorch-OpCounter) to assess the parameters and MACs, see the code in `./eval/cal_params_and_macs.py`
 
 ## Truncated Strategy
-We have provided a mapping table `./assets/acc_T_change_table.xlsx` between $T'$ and $T$ in our `truncated schedule`, along with the corresponding curve graph for $\sqrt{\overline{\alpha}_{t}}$.
+We have provided a mapping table [acc_T_change_table.xlsx](https://github.com/nkicsl/Resfusion/releases/download/v1.0/acc_T_change_table.xlsx) between $T'$ and $T$ in our `truncated schedule`, along with the corresponding curve graph for $\sqrt{\overline{\alpha}_{t}}$.
 
 ## Tips
 1. Strictly adhere to the hyperparameters set during training when testing the model.

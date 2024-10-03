@@ -1,5 +1,7 @@
 # Resfusion: Denoising Diffusion Probabilistic Models for Image Restoration Based on Prior Residual Noise
 
+![image](https://github.com/nkicsl/Resfusion/blob/main/assets/Visualization.jpg)
+
 arxiv link: https://arxiv.org/abs/2311.14900
 
 This repository is the official [Pytorch Lightning](https://github.com/Lightning-AI/pytorch-lightning) implementation for Resfusion: Denoising Diffusion Probabilistic Models for Image Restoration Based on Prior Residual Noise.

@@ -94,9 +94,9 @@ Thanks to [MulimgViewer](https://github.com/nachifur/MulimgViewer) for the suppo
 ## Citation
 If you find this work useful for your research, please consider citing:
 ```
-@article{zhenning2023resfusion,
-  title={Resfusion: Prior Residual Noise embedded Denoising Diffusion Probabilistic Models},
-  author={Zhenning, Shi and Changsheng, Dong and Bin, Pan and Xueshuo, Xie and Along, He and Qiaoying, Qu and Tao, Li},
+@article{shi2023resfusion,
+  title={Resfusion: Denoising Diffusion Probabilistic Models for Image Restoration Based on Prior Residual Noise},
+  author={Shi, Zhenning and Zheng, Haoshuai and Xu, Chen and Dong, Changsheng and Pan, Bin and Xie, Xueshuo and He, Along and Li, Tao and Fu, Huazhu},
   journal={arXiv preprint arXiv:2311.14900},
   year={2023}
 }

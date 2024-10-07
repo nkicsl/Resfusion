@@ -4,6 +4,8 @@
 
 arxiv link: https://arxiv.org/abs/2311.14900
 
+neurips poster page: https://nips.cc/virtual/2024/poster/95696
+
 This repository is the official [Pytorch Lightning](https://github.com/Lightning-AI/pytorch-lightning) implementation for Resfusion: Denoising Diffusion Probabilistic Models for Image Restoration Based on Prior Residual Noise.
 
 ## Directory Structure
